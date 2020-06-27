@@ -1,0 +1,29 @@
+﻿Build started 23-Mar-17 12:49:14 AM.
+     1>Project "C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Assignment1\Assignment1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Assignment1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp stack.cpp
+         stack.cpp
+         main.cpp
+     1>c:\users\muhammad anas baig\onedrive\uni\dsa-csc-221\assignments\assignment1 code solution\assignment1\main.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\muhammad anas baig\onedrive\uni\dsa-csc-221\assignments\assignment1 code solution\assignment1\main.cpp(178): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+         Generating Code...
+     1>c:\users\muhammad anas baig\onedrive\uni\dsa-csc-221\assignments\assignment1 code solution\assignment1\stack.cpp(65): warning C4715: 'stack::pop' : not all control paths return a value
+     1>c:\users\muhammad anas baig\onedrive\uni\dsa-csc-221\assignments\assignment1 code solution\assignment1\stack.cpp(77): warning C4715: 'stack::_top' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\stack.obj
+         LINK : C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.exe not found or not built by the last incremental link; performing full link
+         Assignment1.vcxproj -> C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Debug\Assignment1.exe;#1" /manifest Debug\Assignment1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment1.unsuccessfulbuild".
+         Touching "Debug\Assignment1.lastbuildstate".
+     1>Done Building Project "C:\Users\Muhammad Anas Baig\OneDrive\Uni\DSA-CSC-221\Assignments\Assignment1 Code Solution\Assignment1\Assignment1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.26
